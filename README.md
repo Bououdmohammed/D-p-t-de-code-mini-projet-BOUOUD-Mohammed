@@ -11,15 +11,21 @@ Le principe du jeu développé dans ce mini-projet consiste en deux joeurs qui s
 
 Nous détaillerons dans la suite le principe du jeu implimenté (tâches, messageries, Mutexes, ...), la mise en ouevre du périphérique UART7, ainsi que la configuration des modules RN42 pour réaliser la communication Bluetooth entre les deux cartes microcontrôleur dans la partie à deux joueurs.
 
-## Principe du jeu "FIghting Game" :
+## Principe du jeu "FIghting Game" et fonctionnement des programmes :
 
-<iframe width="473" height="840" src="https://www.youtube.com/embed/jmvjBglkAN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Comme expliqué plus haut, le principe du jeu consiste en deux joueurs qui se battre par missiles et se déplace à l'aide du joystick pour éviter les missiles envoyés par l'adversaire. Pour tirer un missile il faut maintenir appuier le bouton BP1 de la carte microcontrôleur. Se missile se déplacera donc verticalement tant que le BP1 est maintenu appuié et prend comme position horizontale celle du joueur émetteur, il s'agit donc d'un missile orientable pour mieux attaquer le joueur adversaire.
 
 
-## Fonctionnement des programmes : 
+Une vidéo de démonstration dans le cas de jeu contre carte microcontrôleur STM32 est disponible sur le lien suivant : https://www.youtube.com/shorts/jmvjBglkAN0
+
+
+
+
+
 
 ## Présentation et utilisation de liaison série UART7 : 
 
 ## Présentation et utilisation des modules bluetooth RN42 :
 
+ 
  
