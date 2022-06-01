@@ -61,6 +61,12 @@ Une vidéo de démonstration est disponible sur le lien suivant : https://www.yo
 
 ## Présentation et utilisation des modules bluetooth RN42 :
 
+Dans cette version du jeu, notre objectif est de remplacer les fils utilisés pour réaliser la liaision série UART7 exploitée dans la version précédente par des modules Bluetooth RN42. Les programmes sont donc les mêmes que précédement.
+
+
+
+**En cours**
+
  [https://www.youtube.com/shorts/jmvjBglkAN0](https://www.youtube.com/watch?v=-zqxK5wloWI)
  
  ## Conclusion :
