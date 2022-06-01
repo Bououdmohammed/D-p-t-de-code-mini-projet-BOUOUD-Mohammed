@@ -11,5 +11,12 @@ Le principe du jeu développé dans ce mini-projet consiste en deux joeurs qui s
 
 Nous détaillerons dans la suite le principe du jeu implimenté (tâches, messageries, Mutexes, ...), la mise en ouevre du périphérique UART7, ainsi que la configuration des modules RN42 pour réaliser la communication Bluetooth entre les deux cartes microcontrôleur dans la partie à deux joueurs.
 
+## Principe du jeu "FIghting Game" :
+
+## Fonctionnement des programmes : 
+
+## Présentation et utilisation de liaison série UART7 : 
+
+## Présentation et utilisation des modules bluetooth RN42 :
 
  
