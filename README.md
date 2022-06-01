@@ -13,6 +13,9 @@ Nous détaillerons dans la suite le principe du jeu implimenté (tâches, messag
 
 ## Principe du jeu "FIghting Game" :
 
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/ZiN9ByJ4qZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Fonctionnement des programmes : 
 
 ## Présentation et utilisation de liaison série UART7 : 
