@@ -65,9 +65,9 @@ Dans cette version du jeu, notre objectif est de remplacer les fils utilisés po
 
 
 
-**En cours**
+**En cours ...**
 
- [https://www.youtube.com/shorts/jmvjBglkAN0](https://www.youtube.com/watch?v=-zqxK5wloWI)
+ Une vidéo de démonstration est disponible sur le lien suivant : [https://www.youtube.com/shorts/jmvjBglkAN0](https://www.youtube.com/watch?v=-zqxK5wloWI)
  
  ## Conclusion :
  
