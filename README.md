@@ -15,10 +15,13 @@ Nous détaillerons dans la suite le principe du jeu implimenté (tâches, messag
 
 Comme expliqué plus haut, le principe du jeu consiste en deux joueurs qui se battre par missiles et se déplace à l'aide du joystick pour éviter les missiles envoyés par l'adversaire. Pour tirer un missile il faut maintenir appuier le bouton BP1 de la carte microcontrôleur. Se missile se déplacera donc verticalement tant que le BP1 est maintenu appuié et prend comme position horizontale celle du joueur émetteur, il s'agit donc d'un missile orientable pour mieux attaquer le joueur adversaire.
 
-
 Une vidéo de démonstration dans le cas de jeu contre carte microcontrôleur STM32 est disponible sur le lien suivant : https://www.youtube.com/shorts/jmvjBglkAN0
 
-
+Pour cette première version du jeu, le programme est composé de 4 tâches (+ defaultTASK) : 
+- **Tâche diable** :
+- **Tâche Homme** :
+- **Tâche virus** :
+- **Tâche Game_Over** :  
 
 
 
