@@ -43,15 +43,21 @@ La version à deux joueurs du **Fighting Game** utilise les mêmes tâches que d
 
 ### Programme MAST1 :
 
-Dans ce projet, 5 tâches ont été créées (+ **defaultTask**) : 
+Dans ce programme, 5 tâches ont été créées (+ **defaultTask**) : 
 
-- **Tâche diable** : Elle reçoit la position courante du joueur *diable* par liaison sérieou Bluetooth et affiche sur l'écran. La tâche correspondante dans le projet **MAST2** s'occupe du déplacement réel du diable à l'aide du Joystick.
+- **Tâche diable** : Elle reçoit la position courante du joueur *diable* par liaison série ou Bluetooth et affiche sur l'écran. La tâche correspondante dans le projet **MAST2** s'occupe du déplacement réel du diable à l'aide du Joystick.
 - **Tâche Homme** : Elle permet au joueur de se déplacer en bas de l'écran à l'aide du Joystick pour éviter les virus envoyés par le diable et d'envoyer des missiles pour attaquer le diable en appuyant sur le bouton BP1.
 - **Tache Task_Transmit_data** : Envoie les données par liaison série ou par Bluetooth.
 - **Tâche missiles** : Elle s'occupe des déplacements des missiles envoyés par les deux joueurs sur l'écran et vérifie les collisions.  
 - **Tâche Game_Over** : Détermine le vaiqueur de la partie jouée et détruit la tâche Homme (resp. diable) si le joueur perd (resp. gagne).
 
-https://www.youtube.com/shorts/ZzL9vxEpnPE
+Dans ce projet on trouve en plus la fonction *HAL_UART_RxCpltCallback* dédiée à la réception de données envoyées par l'autre carte en liaison série ou en Bluetooth.
+
+### Programme MAST2 : 
+
+Dans ce programme, les mêmes tâches qu'en **MAST1** ont été définies. L'unique différence réside dans le fait que cette fois la **tâche Homme** reçoit la position du joueur *Homme* par liaison série ou par Bluetooth et ne fait qu'afficher l'*Homme* sur l'écran, alors que la **tâche diable** s'occupe du déplacement du joueur *diable* sur l'écran LCD à l'aide du Joystick et de l'emission de missiles de sa part.
+
+Une vidéo de démonstration est disponible sur le lien suivant : https://www.youtube.com/shorts/ZzL9vxEpnPE
 
 ## Présentation et utilisation des modules bluetooth RN42 :
 
