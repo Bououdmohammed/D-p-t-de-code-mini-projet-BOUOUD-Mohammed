@@ -34,7 +34,7 @@ https://www.youtube.com/shorts/ZzL9vxEpnPE
 
 ## Présentation et utilisation des modules bluetooth RN42 :
 
- https://www.youtube.com/shorts/jmvjBglkAN0
+ [https://www.youtube.com/shorts/jmvjBglkAN0](https://www.youtube.com/watch?v=-zqxK5wloWI)
  
  ## Conclusion :
  
