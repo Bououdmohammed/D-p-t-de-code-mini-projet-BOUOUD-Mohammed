@@ -30,7 +30,11 @@ Les tâche échange entre elles en exploitant un esemble de QUEUE
 
 ## Présentation et utilisation de liaison série UART7 : 
 
+https://www.youtube.com/shorts/ZzL9vxEpnPE
+
 ## Présentation et utilisation des modules bluetooth RN42 :
 
+ https://www.youtube.com/shorts/jmvjBglkAN0
  
+ ## Conclusion :
  
