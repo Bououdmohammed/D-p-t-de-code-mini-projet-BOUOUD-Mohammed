@@ -9,11 +9,11 @@ L'objectif de ce mini-projet est de prendre en main le système d'exploitation t
 
 Le principe du jeu développé dans ce mini-projet consiste en deux joeurs qui se déplacent horizontalement sur l'écran de la carte microcontrôleur STM32 à l'aide du Joystick et jettent des missiles dirigeables pour attaquer chacun son rival. Le premier joueur qui arrive à frapper l'autre est déclarer gagnant de la partie ainsi jouée. La version finale du jeu permet à deux joueurs de se confronter à distance grâce à l'exploitation de deux modules Bluetooth RN42 sur la liaison UART7 de la carte STM32, la distance entre les deux cartes peut atteindre $10m$ ce qui assure aux joueurs suffisement de confort pour pouvoir se concentrer sur la partie en cours.
 
-Nous détaillerons dans la suite le principe du jeu implimenté (tâches, messageries, Mutexes, ...), la mise en ouevre du périphérique UART7, ainsi que la configuration des modules RN42 pour réaliser la communication Bluetooth entre les deux cartes microcontrôleurs dans la partie à deux joueurs.
+Nous détaillerons dans la suite le principe du jeu implémenté (tâches, messageries, Mutexes, ...), la mise en ouevre du périphérique UART7, ainsi que la configuration des modules RN42 pour réaliser la communication Bluetooth entre les deux cartes microcontrôleurs dans la version à deux joueurs.
 
 ## Principe du jeu "FIghting Game" et fonctionnement des programmes :
 
-Comme expliqué plus haut, le principe du jeu consiste en deux joueurs qui se battre par missiles et se déplace à l'aide du joystick pour éviter les missiles envoyés par l'adversaire. Pour tirer un missile il faut maintenir appuier le bouton BP1 de la carte microcontrôleur. Se missile se déplacera donc verticalement tant que le BP1 est maintenu appuié et prend comme position horizontale celle du joueur émetteur, il s'agit donc d'un missile orientable pour mieux attaquer le joueur adversaire.
+Comme expliqué ci-dessus, le principe du jeu consiste en deux joueurs qui se battre par missiles et se déplace à l'aide du joystick pour éviter les missiles envoyés par l'adversaire. Pour tirer un missile il faut maintenir  appuyé le bouton BP1 de la carte microcontrôleur. Se missile se déplacera donc verticalement tant que le BP1 est maintenu  appuyé et prend comme position horizontale celle du joueur émetteur, il s'agit donc d'un missile orientable pour mieux attaquer le joueur adversaire.
 
 Une vidéo de démonstration dans le cas de jeu contre carte microcontrôleur STM32 est disponible sur le lien suivant : https://www.youtube.com/shorts/jmvjBglkAN0
 
