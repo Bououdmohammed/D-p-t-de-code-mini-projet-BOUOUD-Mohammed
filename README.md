@@ -106,19 +106,9 @@ La communication avec le module RN42 devrait être possible après ce réglage. 
 ![Alt text](https://github.com/Bououdmohammed/D-p-t-de-code-mini-projet-BOUOUD-Mohammed/blob/master/Master.jpg)
 
 
-Éteidre puis allumer l'alimentation des deux modules pour qu'ils se connectent. La liaison filaire est ainsi remplacer par Bluetooth.
-
-
-
-
-
-
-
-
+Éteidre puis allumer l'alimentation des deux modules pour qu'ils se connectent. La liaison filaire est ainsi remplacer par Bluetooth.  
+Il suffit donc de connecter les modules Bluetooth chacun sur une carte pour pouvoir jouer en Bluetooth. 
 
  Une vidéo de démonstration est disponible sur le lien suivant : [https://www.youtube.com/shorts/jmvjBglkAN0](https://www.youtube.com/watch?v=-zqxK5wloWI)
  
-
- 
- ## Conclusion :
  
