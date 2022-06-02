@@ -70,8 +70,13 @@ Les modules Bluetooth RN42 sont à câbler sur l'UART7 de la carte microcontrôl
 Pour que les deux modules RN42 comuniquent entre eux, certaines configurations sont nécessaires : Conformément à la norme Bluetooth 2.0, un module BT RN42 sera cnfiguré en mode *SLAVE*, l'autre en mode *MASTER*. Le *MASTER* cherche à son alimentation la disponibilité du *SLAVE* dont l'adresse est connue par lui, puis il se connecte automatiquement à sont *SLAVE* et la liaison Bluetooth s'établie. Pour se faire, un réglage minimal est nécessaire pour chaque module RN42. 
 
 Pour configurer un module RN42, le plus facile est de passer par un terminal série comme *Tera Term* sous *Windows*. Pour cela, il est possible d'utiliser un convertisseur *UART/USB*.  
-Après avoir connecter le module Bluetooth à l'ordinateur via le convertisseur *UART/USB*  
+Après avoir connecter le module Bluetooth à l'ordinateur via le convertisseur *UART/USB* :  
+1. Ouvrir une fenêtre *Tera Term* (ou autre).
+2. Vérifier que le module RN42 est bien connecter à l'ordinateur via le convertisseur série/USB.
+3. Accéder à la configuration du port série sur *Tera Term*
+4. Faire les réglage suivant.
 
+![Alt text](https://github.com/Bououdmohammed/D-p-t-de-code-mini-projet-BOUOUD-Mohammed/blob/master/teraterm_config.png)
 
 
 
