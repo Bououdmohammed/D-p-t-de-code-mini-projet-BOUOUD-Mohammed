@@ -82,6 +82,16 @@ La communication avec le module RN42 devrait être possible après ce réglage. 
 
 ### Slave module configuration :
 
+1. Envoyer **SF,1** pour rénitier le module (le nom du module ne sera pas affecter). Le module return **AOK**.
+2. Envoyer **SA,0** pour désactiver l'authentification. Le module répond par **AOK**.
+3. Envoyer **ST,5** pour fixer le temps de connexion à *5 secondes* (ou autre valeur). Le module répond par **AOK**.
+4. Envoyer **D** (ou **X** pour plus de détails) pour vérifier les modifications. Le module renvoie une liste de paramètres.
+5. Envoyer **GB**. Le module renvoie son mac-adress. Noter cette adresse du module **SLAVE**, elle sera utiliser dans la configuration du module **MASTER**.
+6. Envoyer **R,1** pour valider les configurations. Le module renvoie **Reboot!**. 
+
+![Alt text](https://github.com/Bououdmohammed/D-p-t-de-code-mini-projet-BOUOUD-Mohammed/blob/master/slave.jpg)
+
+
 ### Master module configuration :
 
 
