@@ -20,7 +20,7 @@ Une vidéo de démonstration dans le cas de jeu contre carte microcontrôleur ST
 ### Tâches :
 
 Pour cette première version du jeu, le programme est composé de 4 tâches (+ defaultTASK) : 
-- **Tâche diable** : Elle s'occupe du déplacement horizontale du diable en haut de l'acran et de l'envoie périodique de virus (ou bompe) pour attaquer le joueur.
+- **Tâche diable** : Elle s'occupe du déplacement horizontal du diable en haut de l'acran et de l'envoie périodique de virus (ou bompe) pour attaquer le joueur.
 - **Tâche Homme** : Elle permet au joueur de se déplacer en bas de l'écran à l'aide du Joystick pour éviter les virus envoyés par le diable et d'envoyer des missiles pour attaquer le diable en appuyant sur le bouton BP1.
 - **Tâche virus** : Elle s'occupe des déplacements des missiles envoyés par le joueur ou par le diable sur l'écran et vérifie les collisions.  
 - **Tâche Game_Over** : Détermine le vaiqueur de la partie jouée et détruit la tâche Homme (resp. diable) si le joueur perd (resp. gagne).
@@ -31,7 +31,7 @@ Les tâches **diable** et **Homme** communiquent les positions des joeurs et des
 
 ### Partage de ressource : 
 
-Les trois tâches **diable**, **Homme** et **Game_over** partagent la ressource *écran LCD*. Ainsi, un *Mutex* est utilisé pour passer des anomalies d'affichage. Lorsqu'une tâche s'accapare le mutex, elle ne peut pas être interrompue par une tâche utilisant le même mutex avant la libération de la ressource, ce qui garantie un affichage cohérent sur l'écran LCD.
+Les trois tâches **diable**, **Homme** et **Game_over** partagent la ressource *écran LCD*. Ainsi, un *Mutex* est utilisé pour passer des éventuelles anomalies d'affichage. Lorsqu'une tâche s'accapare le mutex, elle ne peut pas être interrompue par une tâche utilisant le même mutex avant la libération de la ressource, ce qui garantie un affichage cohérent sur l'écran LCD.
 
 ### Fonction d'interruption :
 
