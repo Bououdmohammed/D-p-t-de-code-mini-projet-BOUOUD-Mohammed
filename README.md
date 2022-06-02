@@ -63,11 +63,22 @@ Une vidéo de démonstration est disponible sur le lien suivant : https://www.yo
 
 Dans cette version du jeu, notre objectif est de remplacer les fils utilisés pour réaliser la liaision série UART7 exploitée dans la version précédente par des modules Bluetooth RN42. Les programmes sont donc les mêmes que précédement.
 
+Les modules Bluetooth RN42 sont à câbler sur l'UART7 de la carte microcontrôleur STM32 comme suit :
+
+![Alt text](https://github.com/Bououdmohammed/D-p-t-de-code-mini-projet-BOUOUD-Mohammed/blob/master/carte_BT.png " schéma de câblage sur l'UART7 depuis la carte de l'ENS")
+
+Pour que les deux modules RN42 comuniquent entre eux, certaines configurations sont nécessaires : Conformément à la norme Bluetooth 2.0, un module BT RN42 sera cnfiguré en mode *SLAVE*, l'autre en mode *MASTER*. Le *MASTER* cherche à son alimentation la disponibilité du *SLAVE* dont l'adresse est connue par lui, puis il se connecte automatiquement à sont *SLAVE* et la liaison Bluetooth s'établie. Pour se faire, un réglage minimal est nécessaire pour chaque module RN42. 
+
+Pour configurer un module RN42, le plus facile est de passer par un terminal série comme *Tera Term* sous *Windows*. Pour cela, il est possible d'utiliser un convertisseur *UART/USB*.  
+Après avoir connecter le module Bluetooth à l'ordinateur via le convertisseur *UART/USB*  
 
 
-![Alt text](https://github.com/Bououdmohammed/D-p-t-de-code-mini-projet-BOUOUD-Mohammed/blob/master/carte_BT.png)
+
+
 
  Une vidéo de démonstration est disponible sur le lien suivant : [https://www.youtube.com/shorts/jmvjBglkAN0](https://www.youtube.com/watch?v=-zqxK5wloWI)
+ 
+
  
  ## Conclusion :
  
