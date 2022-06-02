@@ -96,22 +96,22 @@ La communication avec le module RN42 devrait être possible après ce réglage. 
 ### Master module configuration :
 
 1. Envoyer **SF,1** pour rénitier le module (le nom du module ne sera pas affecter). Le module return **AOK**.
+2. Envoyer **SA,0** pour désactiver l'authentification. Le module répond par **AOK**.
+3. Envoyer **SM,3** pour changer en *Auto-Connect Master Mode*. Le module répond par **AOK**.
+4. Envoyer **SR,Slave-address** pour enregistrer l'adresse du **Slave**. Le module répond par **AOK**.
+5. Envoyer **ST,5** pour fixer le temps de connexion à *5 secondes* (ou autre valeur). Le module répond par **AOK**.
+6. Envoyer **D** (ou **X** pour plus de détails) pour vérifier les modifications. Le module renvoie une liste de paramètres.
+7. Envoyer **R,1** pour valider les configurations. Le module renvoie **Reboot!**.
+
+Éteidre puis allumer l'alimentation des deux modules pour qu'ils se connectent. La liaison filaire est ainsi remplacer par Bluetooth.
 
 
 
-2. Send SF,1 to change to factory defaults (the modules name won't be affected). -> The device returns AOK.
 
-3. Send SA,0 to disable authentication. -> The device returns AOK.
 
-4. Send SM,3 to change to Auto-Connect Master Mode. -> The device returns AOK.
 
-5. Send SR,<address> to save the mac-address of the slave module to the master module. -> The device returns AOK.
 
-6. Send ST,5 to change the configuration timer to 5 seconds (or another value). -> The device returns AOK.
 
-7. Send D (or X for more details) to verify changes. -> The Device returns a list of parameters.
-
-8. Send R,1 to reboot the device. -> The Device returns Reboot!.
 
  Une vidéo de démonstration est disponible sur le lien suivant : [https://www.youtube.com/shorts/jmvjBglkAN0](https://www.youtube.com/watch?v=-zqxK5wloWI)
  
