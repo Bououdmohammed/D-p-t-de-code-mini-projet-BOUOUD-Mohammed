@@ -79,6 +79,7 @@ Après avoir connecter le module Bluetooth à l'ordinateur via le convertisseur 
 ![Alt text](https://github.com/Bououdmohammed/D-p-t-de-code-mini-projet-BOUOUD-Mohammed/blob/master/teraterm_config.png)
 
 La communication avec le module RN42 devrait être possible après ce réglage. Pour accéder au mode configuration du module,il faut lui envoyer la commande **$$$**. Le module return la réponse **CMD**.
+![Alt text](https://github.com/Bououdmohammed/D-p-t-de-code-mini-projet-BOUOUD-Mohammed/blob/master/cmd_.png)
 
 ### Slave module configuration :
 
@@ -94,6 +95,23 @@ La communication avec le module RN42 devrait être possible après ce réglage. 
 
 ### Master module configuration :
 
+1. Envoyer **SF,1** pour rénitier le module (le nom du module ne sera pas affecter). Le module return **AOK**.
+
+
+
+2. Send SF,1 to change to factory defaults (the modules name won't be affected). -> The device returns AOK.
+
+3. Send SA,0 to disable authentication. -> The device returns AOK.
+
+4. Send SM,3 to change to Auto-Connect Master Mode. -> The device returns AOK.
+
+5. Send SR,<address> to save the mac-address of the slave module to the master module. -> The device returns AOK.
+
+6. Send ST,5 to change the configuration timer to 5 seconds (or another value). -> The device returns AOK.
+
+7. Send D (or X for more details) to verify changes. -> The Device returns a list of parameters.
+
+8. Send R,1 to reboot the device. -> The Device returns Reboot!.
 
  Une vidéo de démonstration est disponible sur le lien suivant : [https://www.youtube.com/shorts/jmvjBglkAN0](https://www.youtube.com/watch?v=-zqxK5wloWI)
  
