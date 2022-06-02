@@ -47,7 +47,7 @@ Dans ce programme, 5 tâches ont été créées (+ **defaultTask**) :
 
 - **Tâche diable** : Elle reçoit la position courante du joueur *diable* par liaison série ou Bluetooth et affiche sur l'écran. La tâche correspondante dans le projet **MAST2** s'occupe du déplacement réel du diable à l'aide du Joystick.
 - **Tâche Homme** : Elle permet au joueur de se déplacer en bas de l'écran à l'aide du Joystick pour éviter les virus envoyés par le diable et d'envoyer des missiles pour attaquer le diable en appuyant sur le bouton BP1.
-- **Tache Task_Transmit_data** : Envoie les données par liaison série ou par Bluetooth.
+- **Tache Transmit_data** : Envoie les données par liaison série ou par Bluetooth.
 - **Tâche missiles** : Elle s'occupe des déplacements des missiles envoyés par les deux joueurs sur l'écran et vérifie les collisions.  
 - **Tâche Game_Over** : Détermine le vaiqueur de la partie jouée et détruit la tâche Homme (resp. diable) si le joueur perd (resp. gagne).
 
