@@ -103,6 +103,8 @@ La communication avec le module RN42 devrait être possible après ce réglage. 
 6. Envoyer **D** (ou **X** pour plus de détails) pour vérifier les modifications. Le module renvoie une liste de paramètres.
 7. Envoyer **R,1** pour valider les configurations. Le module renvoie **Reboot!**.
 
+![Alt text]([https://github.com/Bououdmohammed/D-p-t-de-code-mini-projet-BOUOUD-Mohammed/blob/master/slave.jpg](https://github.com/Bououdmohammed/D-p-t-de-code-mini-projet-BOUOUD-Mohammed/blob/master/Master.jpg)
+
 Éteidre puis allumer l'alimentation des deux modules pour qu'ils se connectent. La liaison filaire est ainsi remplacer par Bluetooth.
 
 
