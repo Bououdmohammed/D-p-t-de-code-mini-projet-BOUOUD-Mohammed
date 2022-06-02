@@ -112,4 +112,4 @@ Il suffit donc de connecter les modules Bluetooth chacun sur une carte pour pouv
  Une vidéo de démonstration est disponible sur le lien suivant : [https://www.youtube.com/shorts/jmvjBglkAN0](https://www.youtube.com/watch?v=-zqxK5wloWI)
  
  
-## Conclusion : 
+
