@@ -74,11 +74,15 @@ Après avoir connecter le module Bluetooth à l'ordinateur via le convertisseur 
 1. Ouvrir une fenêtre *Tera Term* (ou autre).
 2. Vérifier que le module RN42 est bien connecter à l'ordinateur via le convertisseur série/USB.
 3. Accéder à la configuration du port série sur *Tera Term*
-4. Faire les réglage suivant.
+4. Faire les réglage suivant :
 
 ![Alt text](https://github.com/Bououdmohammed/D-p-t-de-code-mini-projet-BOUOUD-Mohammed/blob/master/teraterm_config.png)
 
+La communication avec le module RN42 devrait être possible après ce réglage. Pour accéder au mode configuration du module,il faut lui envoyer la commande **$$$**. Le module return la réponse **CMD**.
 
+### Slave module configuration :
+
+### Master module configuration :
 
 
  Une vidéo de démonstration est disponible sur le lien suivant : [https://www.youtube.com/shorts/jmvjBglkAN0](https://www.youtube.com/watch?v=-zqxK5wloWI)
