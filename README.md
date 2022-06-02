@@ -65,7 +65,7 @@ Dans cette version du jeu, notre objectif est de remplacer les fils utilisés po
 
 
 
-**En cours ...**
+![Alt text](https://github.com/Bououdmohammed/D-p-t-de-code-mini-projet-BOUOUD-Mohammed/blob/master/carte_BT.png)
 
  Une vidéo de démonstration est disponible sur le lien suivant : [https://www.youtube.com/shorts/jmvjBglkAN0](https://www.youtube.com/watch?v=-zqxK5wloWI)
  
